@@ -14,13 +14,13 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "eco"
+      "size": "free"
     }
   },
   "addons": [
       {
          "options": {
-            "version": "15"
+            "version": "12"
          },
          "plan": "heroku-postgresql"
       }
@@ -35,22 +35,22 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "22971197"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "a46aaab0cf1854c634dde4566c827b71"
+      "value": ""
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": "6300007053:AAGeyl95UuJ_zmyPOP8ZNr2cN5Fc6Qx6C3Q"
+      "value": ""
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": false,
-      "value": "DOOZY_OFF"
-    },
+      "value": ""
+    }
   }
 }
