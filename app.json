@@ -51,6 +51,6 @@
       "description": "Add username/id of a channel/group",
       "required": false,
       "value": "DOOZY_OFF"
-    }
+    },
   }
 }
